@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/newyear.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-container{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    margin-left: 40px;
+    
+}
+h1{
+    color: white;
+    font-size: 70px;
+    margin-top: 400px;
+    margin-bottom: 0px;
+}
+.big-text{
+    font-size: 50px;
+    line-height: 1;
+    margin: 7px 0px;
+}
+.countdown-el{
+    text-align: center;
+    margin-right: 40px;
+}
+.countdown-el span{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-image: url(./images/mobnewyear.jpg);
+    }
+    h1{
+        font-size: 45px;
+    }
+    .big-text {
+        font-size: 30px;
+    }
+    .countdown-el {
+        text-align: center;
+        margin-right: 20px;
+    }
+}
